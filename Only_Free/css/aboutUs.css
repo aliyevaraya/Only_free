@@ -1,0 +1,63 @@
+body {
+  background: url("../img/home-bg.jpg") no-repeat;
+  background-size: cover;
+}
+main {
+  padding: 5%;
+}
+#about {
+  margin: 100px 0 50px 0;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 40px 20px;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.img img {
+  width: 100%;
+  height: 100%;
+}
+.text {
+  text-align: justify;
+  color: #fff;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+.text p {
+  line-height: 1.5em;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 768px) {
+  #about {
+    height: 400px;
+    text-align: center;
+  }
+  .img,
+  .text {
+    display: inline-block;
+  }
+  .img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+  }
+  .text {
+    width: 50%;
+    vertical-align: top;
+    padding: 30px 0 0 0;
+    margin-left: 100px;
+  }
+  h1 {
+    font-size: 2.2em;
+  }
+}

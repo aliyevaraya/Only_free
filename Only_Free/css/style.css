@@ -1,0 +1,36 @@
+body {
+  background: url("../img/home-bg.jpg") no-repeat;
+  background-size: cover;
+}
+main {
+  height: 55vh;
+  margin: 200px 0 0 0;
+  text-align: center;
+  padding: 10px;
+}
+h1,
+h3,
+h5 {
+  color: #fff;
+}
+h1,
+h3 {
+  text-shadow: 2px 5px 8px #7b3414;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: .8em;
+}
+footer {
+  height: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 24m;
+  }
+}

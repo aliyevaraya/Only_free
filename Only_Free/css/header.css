@@ -1,0 +1,24 @@
+#menu {
+  text-align: center;
+  padding: 20px;
+}
+#menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#menu li a {
+  color: #fff;
+  font: bold 1.2em Arial;
+  border: 3px solid transparent;
+  padding: 5px;
+  transition: all 0.2s ease-in-out;
+}
+#menu li a:hover {
+  box-shadow: 3px 3px 10px #014f62;
+}
+@media only screen and (max-width:768px) {
+  #menu li{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
